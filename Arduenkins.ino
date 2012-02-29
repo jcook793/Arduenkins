@@ -38,6 +38,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #define OFF {0,0,0}
 #define WHITE {511,511,511}
 
+extern HardwareSerial Serial;
+
 char* knownColors[]={  "red", "green", "blue", "yellow", "cyan", "magenta", "off", "white" };
 int components[][3]={  RED,  GREEN, BLUE, YELLOW, CYAN, MAGENTA, OFF, WHITE };
 
